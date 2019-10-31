@@ -79,7 +79,7 @@ img{
 
 /* header-style */
 .header {
-    position: fixed;
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
@@ -141,8 +141,8 @@ img{
 
 /* input */
 .search-form-info {
-        display: flex;
-        flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 .search-form-input {
     background: transparent url(../img/svg/oval-icon.svg) no-repeat left 6px;
@@ -214,6 +214,7 @@ img{
 
 .benefits-card-pic {
     max-width: 66px;
+    min-height: 66px;
     margin-bottom: 37px;
 }
 .benefits-card-icon {
